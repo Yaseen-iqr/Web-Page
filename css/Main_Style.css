@@ -1,0 +1,710 @@
+/* line  after text*/
+ 
+
+/*
+@media (min-width: 768px) 
+@media (min-width: 992) 
+@media (min-width: 1200) 
+**/
+
+
+/* ***********************************  navbar ******************* */
+
+ .navbar-dark .navbar-nav .nav-link ,.navbar-nav.active {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+-webkit-transition-duration:0.5s ;
+-moz-transition-duration:0.5s ;
+-o-transition-duration:0.5s ;
+transition-duration:0.5s ;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 123, 0);
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgb(255, 123, 0);
+    background: white;
+   
+-webkit-transition-duration:0.5s ;
+-moz-transition-duration:0.5s ;
+-o-transition-duration:0.5s ;
+transition-duration:0.5s ;
+}
+
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: .3125rem;
+}
+
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 100px;
+}
+/***********************  header *************************************************/
+
+.header{
+    background: url('../img/glass-building.jpg') no-repeat top center scroll;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+}
+
+
+.overlay{
+background-color: rgba(0, 0, 0, 0.5);
+padding: 200px 20px;
+}
+
+
+.header h1{
+    color:white;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .header .part1{
+        font-size: 40px;  
+    }
+
+    .header .intro {
+        text-align: center;
+        margin: 0px 100px;
+    }
+}
+
+
+
+
+
+
+.header .intro{
+   margin-bottom: 10px;
+}
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
+.header  .title{
+    font-size: 25px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header  .title:after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+.header  .detile{
+    font-size: 16px;
+    color:white;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+
+.header h2{
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(235, 235, 235);
+    height: 50px;
+    padding-top: 15px;
+  
+  
+}
+
+.header .part2{
+    font-family: 'Cormorant Garamond', serif;
+color: rgb(255, 102, 0);
+font-size: 45px;
+}
+
+
+.col-md-6 h1{
+font-size: 40px;
+}
+
+.header button,.Design button{    /* ################  share*/ 
+    background: transparent;
+    padding: 5px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    margin-top: 20px;
+    
+-webkit-transition-duration:0.5s ;
+-moz-transition-duration:0.5s ;
+-o-transition-duration:0.5s ;
+transition-duration:0.5s ;
+}
+
+
+
+.header button:hover,.Design button:hover{       /* ############  share*/ 
+    background:  rgb(255, 123, 0);
+    padding: 5px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+
+
+/************ part 2*/
+.header  .info{
+    overflow: hidden;
+    border-radius: 5px;
+    width: 400px;
+background-color: rgb(255, 255, 255);
+border:2px solid black;
+height: 305px;
+}
+
+
+
+
+
+.header  .info span{
+color: rgb(255, 123, 0);
+} 
+
+
+
+.header  .info .form-control,.Contact .form-control{     /* ##########  shared ##############*/ 
+width: 80%;
+margin: auto;
+ margin-bottom: 20px;
+ border: none;
+ border-radius: 0%;
+ border-bottom: 1px solid rgb(199, 199, 199);
+    }
+
+    
+
+.header  .info  .submit{
+width: 100%;
+padding: 10px 0px;
+color: white;
+    margin-top: 8px;
+    background-color: rgba(255, 123, 0, 0.979);
+    margin-bottom: 0px;
+border:none ;
+    -webkit-transition-duration:0.3s ;
+-moz-transition-duration:0.3s ;
+-o-transition-duration:0.3s ;
+transition-duration:0.3s ;
+       }
+  
+.header  .info  .submit:hover{
+ opacity: 0.7;
+           }
+
+       .row>* {
+        padding-right:0;
+        padding-left: 0;
+    }
+/* ***********************************  social ******************* */
+
+    .scoial-media{
+    padding-bottom: 20px;    
+padding: 40px 20px;
+
+box-shadow: 10px 10px 10px #CCC;  
+    }
+
+    .col-md-7
+    {
+padding-left: 70px;
+    }
+    
+    .scoial-media i{
+        cursor: pointer;
+        color: rgb(109, 109, 109);
+        margin-top: 30px;
+        margin-right: 30px; 
+        -webkit-transition: all .3s ease-in-out ;
+        -moz-transition: all .3s ease-in-out ;
+        -o-transition: all .3s ease-in-out ;
+        transition: all .3s ease-in-out ;
+    }
+  
+    .scoial-media p{
+color: rgb(124, 124, 124);
+    }
+    .scoial-media  .fa-facebook:hover{
+        color: rgb(0, 132, 255);
+    }
+
+    
+    .scoial-media  .fa-pinterest:hover{
+        color: rgb(255, 55, 55);   
+    }
+
+    
+    .scoial-media  .fa-twitter:hover{
+        color: rgb(49, 148, 179);  
+    }
+    
+    .scoial-media  .fa-instagram:hover{
+        color: rgb(255, 27, 84);       
+    }
+    
+    .scoial-media  .fa-rss:hover{
+        color: rgb(50, 53, 255);       
+    }
+    
+    
+    .scoial-media  .fa-google-plus:hover{
+        color: rgb(255, 0, 0);      
+    }
+    
+    
+/* ***********************************  Tab-section  ******************* */
+
+
+@media (max-width:575px) {
+    .Tab-section {
+       text-align: center; 
+    }
+
+    .Tab-section .nav-link {
+      width: 100%;
+      text-align: center;
+      margin: 10px 100px;
+    }
+
+    .Tab-section .col-lg-4 h4 {
+        margin-top: 15px;
+    }
+
+   
+}
+
+
+
+
+.Tab-section  {
+    margin: 40px 20px;
+}
+
+    .Tab-section   .nav-pills .nav-link.active, .nav-pills .show>.nav-link,.Tab-section .nav-link {
+        color: #fff;
+        background-color:  rgb(255, 123, 0);
+        padding: 30px 20px;
+    margin-bottom: 1px;
+    }
+
+
+    
+    .Tab-section .nav-link {
+        color: #fff;
+        background-color:  rgb(41, 41, 41);
+        padding: 30px 20px;
+
+    margin-bottom: 1px;
+    }
+
+    .Tab-section  .col-lg-4 h4{
+margin-bottom: 40px;
+
+    }
+
+    .Tab-section  .col-lg-4 p{
+   text-align: justify;
+   line-height: 30px;
+            }
+
+
+.Tab-section  .col-lg-4 button{
+    border:none ;
+    border-radius: 5%;
+    color: white;
+    padding: 8px 10px;
+background-color:  rgb(255, 123, 0);
+-webkit-transition: all .3s ease-in-out ;
+-moz-transition: all .3s ease-in-out ;
+-o-transition: all .3s ease-in-out ;
+transition: all .3s ease-in-out ;
+    }
+
+
+.Tab-section  .col-md-4 button:hover{
+        color: rgb(0, 0, 0);
+        padding: 8px 20px;
+        }
+
+
+.Tab-section .col-md-6
+ {
+padding-left: 50px;
+ }       
+
+   
+/* ***********************************  Sublist ******************* */
+@media (max-width:575px) {
+    .Sublist h5 {
+    margin-top: 25px;
+}
+p {
+   margin-left: 100px;
+}
+}
+
+
+.Sublist{
+margin: 40px 20px;
+}
+ .Sublist img{
+     margin-top: 120px;
+     margin-bottom: 20px;
+     border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(167, 167, 167);  
+ }
+ .Sublist .col-md-6 h3 ~ p{
+margin-top: 30px;
+margin-bottom: 10px;
+ }
+
+ .Sublist  .items{
+     float: left;
+ }
+
+ .Sublist i{
+     margin-right: 40px;
+     float: left;
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
+    border: 3px solid rgb(255, 123, 0);
+    border-radius: 50%;
+    padding: 10px;
+     }
+ 
+ .Sublist .col-md-6 h3:after{    /*   for drawing line after title*/ 
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color:  rgb(255, 123, 0);
+    margin-top: 30px;
+}
+
+
+/* ***********************************  Stander-picture ******************* */
+.Stander-picture {
+    background-color: beige;
+    padding: 100px 20px;
+}
+
+.Stander-picture   h3 ~p{ 
+    margin-top: 30px;
+}
+
+.Stander-picture   h3:after{    /*   for drawing line after title*/ 
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color:  rgb(255, 123, 0);
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.Stander-picture  .info{
+    color: rgb(129, 129, 129);
+    padding-right: 60px;
+   line-height: 25px;
+   text-align: justify;
+    }
+
+.Stander-picture  .picture{
+margin-top: 40px;
+margin-left: 30px;
+border-bottom: 10px solid rgb(0, 162, 255);
+-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+-moz-filter: blur(5px); 
+-o-filter: blur(5px); 
+filter: blur(5px); 
+
+/*
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%); 
+-o-filter: grayscale(100%); 
+filter: grayscale(100%); */
+
+-webkit-transition-duration:0.3s ;
+-moz-transition-duration:0.3s ;
+-o-transition-duration:0.3s ;
+transition-duration:0.3s ;
+    }
+    .Stander-picture  .picture:hover{
+        -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
+-moz-filter: blur(0px); 
+-o-filter: blur(0px); 
+filter: blur(0px); 
+transition-duration: 1.5s;
+ /*     
+-webkit-filter: grayscale(0%); 
+-moz-filter: grayscale(0%); 
+-o-filter: grayscale(0%); 
+filter: grayscale(0%); 
+filter: grayscale(0%);*/
+            }
+ 
+/* ***********************************  Awesome ******************* */
+.Awesome{
+padding: 60px 10px;
+padding-bottom: 40px;
+}
+
+.Awesome h4 ,.Pricing h4,.Customer h4,.Design h4,.Contact h4{    /*********  Shared ********/
+    font-size: 40px;
+    font-weight: bold;
+font-family: 'Cormorant Upright', serif;
+}
+.Awesome h4:after ,.Pricing h4:after ,.Customer h4:after ,.Design  h4:after,.Contact h4:after{    /* Shared   for drawing line after title*/ 
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color:  rgb(255, 123, 0);
+    margin: 30px auto;
+}
+
+.Awesome h4 ~p{
+    margin-bottom: 80px;
+}
+
+.Awesome i{
+    color:  rgb(255, 123, 0);
+    margin-bottom: 40px;
+   width: 80px;
+   height: 80px;
+   border: 3px solid rgb(255, 123, 0);
+   border-radius: 50%;
+   padding: 15px 0px ;
+}
+
+.Awesome i ~p{
+    color: rgb(124, 124, 124);
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+
+/* ***********************************  Pricing ******************* */
+.Pricing{
+padding-top: 40px;
+margin-top: 40px;
+background-color: rgb(228, 228, 228);
+}
+
+.recomanded   /* TO up second item*/  
+{
+margin-top: -40px;
+}
+
+.Pricing .mainbody {
+    background-color: rgb(255, 255, 255);
+  margin: 80px 20px;
+}
+
+.Pricing .mainbody   h5{
+padding: 20px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+
+.Pricing .mainbody   .offer{
+    margin-top: -7px;
+    padding: 20px;
+        background-color: rgb(37, 37, 37);
+        color: white;
+        border-bottom: 6px solid  rgb(255, 123, 0);
+    }
+
+    .Pricing .offer span{
+        font-size: 80px;
+        font-weight: bold;
+        }
+        
+.Pricing .offer .sign{
+            font-size: 40px;
+            font-weight: bold;
+            }
+
+        
+.Pricing .mainbody .offer .price-hint
+    {
+        font-weight: normal;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        font-style: italic;
+    }
+   
+    .Pricing .mainbody   .popular
+    {
+        color: white;
+        font-size: 20px;
+padding: 10px;
+background-color:  rgb(255, 123, 0);
+margin-bottom: 0px;
+    }
+
+    .Pricing .mainbody   ul{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+    
+        
+.Pricing .mainbody   li{
+    padding: 5px;
+    }
+/* ***********************************  Customer ******************* */
+.Customer,.Contact{   /* ########Shared**/
+            padding: 60px;
+        }
+
+.Customer .about{
+    padding: 10px;
+ margin: 40px 15px;   
+background-color: rgb(224, 224, 224);
+color: rgb(63, 63, 63);
+text-align:left;
+font-style: italic;
+ }
+
+.Customer  h6{
+   color: rgb(148, 148, 148);   
+}
+
+
+.Customer img{
+border-radius: 50%;
+margin-bottom: 30px;
+
+}
+
+
+/* ***********************************  Design ******************* */
+.Design{
+    background: url('../img/stret.jpg') no-repeat top center scroll;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+color: white;
+}
+
+.Design  h4:after{    /*  Override the style just change line color for drawing line after title*/ 
+    background-color:  rgb(255, 255, 255);
+}
+    .Design .Cover{
+padding: 80px;
+    background-color: rgba(26, 26, 26, 0.5);
+
+    }
+
+ /* ***********************************  Contact ******************* */  
+    .Contact p{
+        margin-bottom: 60px;
+    }
+    
+    .Contact  .submit{
+        border-radius: 5px;
+        border: none;
+        width: 180px;
+    padding: 8px 30px;
+    color: white;
+        margin: 5px auto;
+        background-color: rgba(255, 123, 0, 0.979);
+        -webkit-transition-duration:0.3s ;
+    -moz-transition-duration:0.3s ;
+    -o-transition-duration:0.3s ;
+    transition-duration:0.3s ;
+           }
+      
+.Contact .submit:hover{
+     opacity: 0.7;
+               }
+
+ 
+.Contact .form-control{     /* ##########  shared ##############*/ 
+     margin-bottom: 40px;
+        }
+                  
+
+ /* ***********************************  footer ******************* */   
+ .Footer{
+     background:rgb(0, 0, 0);
+     padding: 10px ;
+     color: rgb(173, 173, 173);
+ }
+
+ .Footer a {
+    color: #000000;
+}
+
+
+
+ .Footer i{
+    margin: 10px;
+    color:  rgb(173, 173, 173);
+background: rgb(0, 0, 0);
+    -webkit-transition: all .3s ease-in-out ;
+    -moz-transition: all .3s ease-in-out ;
+    -o-transition: all .3s ease-in-out ;
+    transition: all .3s ease-in-out ;
+    }
+
+            .Footer  .fa-facebook:hover{
+                color: rgb(0, 132, 255);
+            }
+        
+            
+            .Footer  .fa-pinterest:hover{
+                color: rgb(255, 55, 55);   
+            }
+        
+            
+            .Footer  .fa-twitter:hover{
+                color: rgb(49, 148, 179);  
+            }
+            .Footer  .fa-instagram:hover{
+                color: rgb(255, 27, 84);       
+            }
+            
+            .Footer  .fa-rss:hover{
+                color: rgb(50, 53, 255);       
+            }
+            
+            
+            .Footer  .fa-google-plus:hover{
+                color: rgb(255, 0, 0);      
+            }
+ 
